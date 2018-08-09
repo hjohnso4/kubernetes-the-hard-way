@@ -48,7 +48,15 @@ sudo mv cfssl_linux-amd64 /usr/local/bin/cfssl
 
 ```
 sudo mv cfssljson_linux-amd64 /usr/local/bin/cfssljson
+
 ```
+
+### Windows
+
+Installation requires a [working Go 1.8+](https://golang.org/doc/install) installation and a properly set GOPATH.
+
+Install as described [here - CloudFlare's PKI/TLS toolkit on Github](https://github.com/cloudflare/cfssl)
+
 
 ### Verification
 
